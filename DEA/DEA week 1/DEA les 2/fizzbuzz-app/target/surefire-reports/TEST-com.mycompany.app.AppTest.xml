@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.03" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.028" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA les 2\fizzbuzz-app\target\test-classes;C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA les 2\fizzbuzz-app\target\classes;C:\Users\Gauvu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Gauvu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA week 1\DEA les 2\fizzbuzz-app\target\test-classes;C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA week 1\DEA les 2\fizzbuzz-app\target\classes;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="NL"/>
     <property name="sun.boot.library.path" value="C:\Users\Gauvu\.jdks\openjdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Gauvu\AppData\Local\Temp\surefire15203613025353567678\surefirebooter14908084996064704226.jar C:\Users\Gauvu\AppData\Local\Temp\surefire15203613025353567678 2023-01-30T14-29-32_683-jvmRun1 surefire10396921714675945787tmp surefire_01764090727714042244tmp"/>
+    <property name="sun.java.command" value="C:\Users\Gauvu\AppData\Local\Temp\surefire9250443025583529104\surefirebooter10207499805378667033.jar C:\Users\Gauvu\AppData\Local\Temp\surefire9250443025583529104 2023-01-31T11-13-35_132-jvmRun1 surefire16775712513370587242tmp surefire_01864404432638713023tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA les 2\fizzbuzz-app\target\test-classes;C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA les 2\fizzbuzz-app\target\classes;C:\Users\Gauvu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Gauvu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA week 1\DEA les 2\fizzbuzz-app\target\test-classes;C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA week 1\DEA les 2\fizzbuzz-app\target\classes;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Gauvu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Gauvu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Gauvu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Gauvu"/>
     <property name="user.language" value="nl"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2022-01-18"/>
     <property name="java.home" value="C:\Users\Gauvu\.jdks\openjdk-17.0.2"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA les 2\fizzbuzz-app"/>
+    <property name="basedir" value="C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA week 1\DEA les 2\fizzbuzz-app"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Gauvu\AppData\Local\Temp\surefire15203613025353567678\surefirebooter14908084996064704226.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Gauvu\AppData\Local\Temp\surefire9250443025583529104\surefirebooter10207499805378667033.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-86"/>
@@ -45,7 +45,7 @@
     <property name="java.io.tmpdir" value="C:\Users\Gauvu\AppData\Local\Temp\"/>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.version" value="17.0.2"/>
-    <property name="user.dir" value="C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA les 2\fizzbuzz-app"/>
+    <property name="user.dir" value="C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\DEA week 1\DEA les 2\fizzbuzz-app"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -57,6 +57,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="executeWithValidIntTest" classname="com.mycompany.app.AppTest" time="0.022"/>
-  <testcase name="executeWithValidIntTest2" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="checkIfFunctionReturnsBuzz" classname="com.mycompany.app.AppTest" time="0.019"/>
+  <testcase name="checkIfFunctionReturnsFizz" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="executeWithValidIntTest" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="checkIfFunctionReturnsFizzBuzz" classname="com.mycompany.app.AppTest" time="0.001"/>
 </testsuite>
