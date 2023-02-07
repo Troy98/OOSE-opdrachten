@@ -2,6 +2,7 @@ package com.mycompany.app;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.Test;
 
@@ -40,6 +41,27 @@ public class AppTest
         StringCalculator stringCalculator = new StringCalculator();
         int result = stringCalculator.add("1\n2,3");
         assertEquals(6, result);
+    }
+
+    //throw error if negative number
+    @Test
+    public void negativeNumberShouldThrowException(){
+        StringCalculator stringCalculator = new StringCalculator();
+        try {
+            stringCalculator.add("-1,2");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Negatives not allowed: -1", e.getMessage());
+        }
+    }
+
+    //use assertThrows
+    @Test
+    public void negativeNumberShouldThrowException2(){
+        StringCalculator stringCalculator = new StringCalculator();
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+            stringCalculator.add("-1,2");
+        });
+        assertEquals("Negatives not allowed: -1", exception.getMessage());
     }
 
 

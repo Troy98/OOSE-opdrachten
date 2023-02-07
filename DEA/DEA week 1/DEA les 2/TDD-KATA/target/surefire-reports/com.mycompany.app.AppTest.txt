@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.mycompany.app.AppTest
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.034 s <<< FAILURE! - in com.mycompany.app.AppTest
-newLineShouldReturnTheirSum2(com.mycompany.app.AppTest)  Time elapsed: 0.003 s  <<< ERROR!
-java.lang.StringIndexOutOfBoundsException: begin 2, end -1, length 15
-	at com.mycompany.app.AppTest.newLineShouldReturnTheirSum2(AppTest.java:47)
-
