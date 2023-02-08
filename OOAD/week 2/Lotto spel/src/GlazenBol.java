@@ -7,7 +7,7 @@ public class GlazenBol {
 
     }
 
-    public Lottobal trekBal() {
+    public Lottobal schepBal() {
         return new Lottobal();
     }
 }

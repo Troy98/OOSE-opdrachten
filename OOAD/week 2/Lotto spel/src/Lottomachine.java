@@ -1,15 +1,18 @@
 public class Lottomachine {
 
+    private GlazenBol bol;
+    private Scorebord scorebord;
+
     public void voerTrekkingUit() {
-
-        Scorebord scorebord = new Scorebord();
-
-        GlazenBol glazenBol = new GlazenBol();
-
+        scorebord.maakLeeg();
+        bol.verzamelAlleBallen();
         for (int i = 0; i < 6; i++) {
-            int bal = glazenBol.trekBal();
+            Lottobal bal = bol.schepBal();
             scorebord.plaatsBal(bal);
         }
+        Lottobal bonusbal = bol.schepBal();
+        scorebord.plaatsBonusBal(bonusbal);
+        scorebord.sorteerBallen();
 
     }
 }
