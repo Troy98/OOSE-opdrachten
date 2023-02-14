@@ -19,7 +19,16 @@ public class Spel {
 		return null;
 	}
 
-	public void teleporteer(String naamKarakter, int i) {
-		// TO DO: implement		
+	public void teleporteer(String naamKarakter, int vakNr) {
+		Karakter k = getKarakter(naamKarakter);
+		bord.teleporteer(k, vakNr);
+		k.verminderEnergie(20);
+	}
+
+
+	public void wisselVakje(String karakterNaam, int i) {
+		Karakter k = getKarakter(karakterNaam);
+		bord.wisselVakje(k, i);
+		k.verminderEnergie(10);
 	}
 }

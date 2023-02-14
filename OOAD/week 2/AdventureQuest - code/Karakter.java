@@ -23,4 +23,7 @@ public class Karakter {
 		v.setKarakter(this);
 	}
 
+	public void verminderEnergie(int energiewaarde){
+
+	}
 }

@@ -2,6 +2,8 @@
 package com.mycompany.app;
 
 public class FizzBuzzExecutor {
+
+
     private final int maxNumber;
     public FizzBuzzExecutor(){
         this.maxNumber = 100;

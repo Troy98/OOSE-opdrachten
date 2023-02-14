@@ -1,0 +1,6 @@
+nl\han\oose\dea\rest\services\ItemService.class
+nl\han\oose\dea\rest\services\exceptions\ItemNotAvailableException.class
+nl\han\oose\dea\rest\services\dto\ItemDTO.class
+nl\han\oose\dea\rest\resources\SimplyTheRestApplication.class
+nl\han\oose\dea\rest\resources\HealthCheckResource.class
+nl\han\oose\dea\rest\services\exceptions\IdAlreadyInUseException.class

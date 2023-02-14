@@ -18,11 +18,19 @@ public class Vakje {
         System.out.println(k.getNaam() + " staat op vakje " + this.vaknr + ": (" + this.xpos + "," + this.ypos + ")");
     }
 
+    public Karakter getKarakter() {
+        return this.karakter;
+    }
+
     public void maakLeeg() {
         this.karakter = null;
     }
     
     public boolean isLeeg() {
     	return karakter == null;
+    }
+
+    public String getVaknr() {
+        return Integer.toString(vaknr);
     }
 }

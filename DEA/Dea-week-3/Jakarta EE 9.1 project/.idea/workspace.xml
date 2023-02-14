@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d1511b9-1dfa-439f-a508-5100f0dc8b07" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../DEA week 1/DEA les 2/fizzbuzz-app/src/main/java/com/mycompany/app/FizzBuzzExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEA week 1/DEA les 2/fizzbuzz-app/src/main/java/com/mycompany/app/FizzBuzzExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEA week 1/DEA les 2/fizzbuzz-app/src/main/java/com/mycompany/app/FizzBuzzRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEA week 1/DEA les 2/fizzbuzz-app/src/main/java/com/mycompany/app/FizzBuzzRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOAD/week 2/AdventureQuest - code/AdventureQuest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OOAD/week 2/AdventureQuest - code/AdventureQuest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOAD/week 2/AdventureQuest - code/Karakter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OOAD/week 2/AdventureQuest - code/Karakter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOAD/week 2/AdventureQuest - code/Spel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OOAD/week 2/AdventureQuest - code/Spel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOAD/week 2/AdventureQuest - code/Spelbord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OOAD/week 2/AdventureQuest - code/Spelbord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOAD/week 2/AdventureQuest - code/Vakje.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OOAD/week 2/AdventureQuest - code/Vakje.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LixRZJVkTm4S2PRLOb7jl3wbv7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Gauvu/Documents/GitHub/OOSE-opdrachten/DEA/Dea-week-3/Jakarta-EE-9.1-project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gauvu\Documents\GitHub\OOSE-opdrachten\DEA\Dea-week-3\Jakarta EE 9.1 project\src\main\java\nl\han\oose\dea\rest" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="simplytherest [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.simplytherest [package]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d1511b9-1dfa-439f-a508-5100f0dc8b07" name="Changes" comment="" />
+      <created>1676367699084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676367699084</updated>
+      <workItem from="1676367700437" duration="2576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

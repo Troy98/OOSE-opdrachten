@@ -5,5 +5,6 @@ public class AdventureQuest {
 		spel.meldAan("Bob");
 		spel.meldAan("Rosie");
 		spel.teleporteer("Bob", 37);
+		spel.wisselVakje("Rosie", 37);
 	}
 }

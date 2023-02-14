@@ -26,7 +26,26 @@ public class Spelbord {
 		return v;
 	}
 
+	void wisselVakje(Karakter naamKarakter, int doelVak){
+
+		Karakter doelKarakter = getVakje(doelVak).getKarakter();
+
+		doelKarakter.setVakje(naamKarakter.getVakje());
+
+		Vakje doelVakje = getVakje(doelVak);
+		naamKarakter.setVakje(doelVakje);
+
+	}
+
 	public Vakje getVakje(int i) {
 		return vakjes.get(i);
 	}
+
+    public void teleporteer(Karakter k, int vakNr) {
+		Vakje v = k.getVakje();
+		v.maakLeeg();
+
+		Vakje nieuwVakje = this.getVakje(vakNr);
+		k.setVakje(nieuwVakje);
+    }
 }
